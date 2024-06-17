@@ -11,7 +11,14 @@ body{
     overflow: hidden;
     user-select: none;
     background: #e5e5e5;
-    zoom: 0.57;
+    zoom: 0.93;
+}
+header{
+
+    & img{
+        position: relative;
+        left: -100px;
+    }
 }
 main{
     background: url('../iphone.webp') no-repeat;
@@ -142,6 +149,7 @@ footer{
             position: absolute;
             top: 32px;
             right: 16px;
+            transition: opacity .3s ease;
             opacity: 0;
             padding: 4px 8px;
             font-size: 24px;
